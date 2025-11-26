@@ -1,16 +1,8 @@
-# Target Python 3.8 - 3.10 for best compatibility with torch wheels
-python-dateutil
-numpy==1.25.2
-pandas==2.2.2
-scikit-learn==1.2.2
-statsmodels==0.14.0
-optuna==3.4.0
-matplotlib==3.8.1
-tqdm==4.66.1
-
-# Torch: pick a tested CPU build for submission environment. If you have GPU,
-# the grader will use whatever CUDA; but CPU wheel avoids platform issues.
-# For CPU-only environment:
-torch==1.13.1
-
-# If you expect GPU/CUDA on target, use a matching build or let users install manually.
+numpy
+pandas
+scikit-learn
+statsmodels
+optuna
+matplotlib
+tqdm
+torch
